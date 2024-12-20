@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan's Bio-data</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Inline styles for improved alignment and readability */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; /* Ensure padding and borders don't cause overflow */
+        }
+        .bio-container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .personal-info {
+            margin: 20px 0;
+            padding-left: 30px;
+        }
+        .personal-info p {
+            margin: 8px 0;
+            text-indent: 10px;
+        }
+        .personal-info p strong {
+            display: inline-block;
+            width: 150px; /* Fixed width for labels for alignment */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 16px;
+            box-sizing: border-box; /* Prevent overflow due to padding */
+        }
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+            box-sizing: border-box; /* Prevent overflow due to padding */
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Style for the back button at top-left */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <!-- Go Back Button -->
+    <a href="index.html">
+        <button class="back-button">Go Back to Home</button>
+    </a>
+
+    <div class="bio-container">
+        <!-- Header Section -->
+        <header>
+            <h1>Rohan M Naik</h1>
+            <p><strong>Contact:</strong> +91 8073107840 | <strong>Email:</strong> [Your Email Address]</p>
+        </header>
+
+        <!-- Personal Information -->
+        <section id="personal-info" class="personal-info">
+            <h2>Personal Information</h2>
+            <p><strong>Full Name:</strong> Rohan M Naik</p>
+            <p><strong>Father's Name:</strong> Manjunath N Naik</p>
+            <p><strong>Mother's Name:</strong> Akshata Naik</p>
+            <p><strong>Date of Birth:</strong> 29/10/2004</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Nationality:</strong> Indian</p>
+            <p><strong>Languages Known:</strong> English, Kannada, Hindi, Konkani</p>
+            <p><strong>Address:</strong> 
+                C-30 Old KHB Colony, Habbuwada, Karwar, Uttar Kannada 581301
+            </p>
+        </section>
+
+        <!-- Educational Background -->
+        <section id="education">
+            <h2>Educational Background</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Percentage/CGPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.E. in CSE</td>
+                        <td>Sapthagiri College Of Engineering, Bangalore</td>
+                        <td>2022-2026</td>
+                        <td>8.2 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>Class 12 (PUC)</td>
+                        <td>Government Pre-University College, Karwar</td>
+                        <td>2020-2022</td>
+                        <td>8.6 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>Class 10 (SSLC)</td>
+                        <td>Balmandir High School, Karwar</td>
+                        <td>2020</td>
+                        <td>9.7 CGPA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Hobbies -->
+        <section id="hobbies" class="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Coding personal projects</li>
+                <li>Reading about emerging technologies</li>
+                <li>Gaming or participating in e-sports</li>
+            </ul>
+        </section>
+
+        <!-- Declaration -->
+        <section id="declaration" class="declaration">
+            <h2>Declaration</h2>
+            <p>I hereby declare that the information provided above is true to the best of my knowledge and belief.</p>
+            <p><strong>Date:</strong> 7-10-2024</p>
+            <p><strong>Place:</strong> Bangalore</p>
+            <p><strong>Signature:</strong> <em>Rohan M Naik</em></p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 Rohan M Naik. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
